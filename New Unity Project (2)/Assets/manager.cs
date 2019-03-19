@@ -21,7 +21,8 @@ public class manager : MonoBehaviour
         display.text = "Score: " + score + "\nLives: " + lives; 
         if (lives == 0)
         {
-            SceneManager.LoadScene(0);
+            PlayerPrefs.SetInt("currentScore", score);
+            SceneManager.LoadScene("gameOver");
         }
     }
 }

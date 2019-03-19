@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 1386132831877652387}
   - component: {fileID: 1386132831877652319}
   - component: {fileID: 1386132831877652316}
-  - component: {fileID: 5194033995052567013}
+  - component: {fileID: 4483417340115655422}
+  - component: {fileID: 6120240701815063211}
   m_Layer: 0
   m_Name: bird_8
   m_TagString: Untagged
@@ -133,7 +134,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   height: -10
---- !u!82 &5194033995052567013
+--- !u!114 &4483417340115655422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386132831877652384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8c651c06cc78446bee23a73cbf4d8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &6120240701815063211
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +156,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 561e221abe74069439d5797947a12aa8, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
