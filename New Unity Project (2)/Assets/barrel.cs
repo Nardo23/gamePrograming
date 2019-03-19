@@ -10,11 +10,13 @@ public class barrel : MonoBehaviour
     public float maxBirdTime;
     public GameObject bird;
     bool start = false;
+   
 
     // Start is called before the first frame update
     void Start()
     {
-        
+       
+
     }
 
     // Update is called once per frame
@@ -27,6 +29,7 @@ public class barrel : MonoBehaviour
             {
                 birdTime = maxBirdTime;
                 Instantiate(bird, this.transform.position, Quaternion.Euler(new Vector3()));
+                
             }
             if (transform.position.x > 5f)
             {
